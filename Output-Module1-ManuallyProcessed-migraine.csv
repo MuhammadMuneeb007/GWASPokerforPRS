@@ -1,0 +1,13 @@
+,firstAuthor,accessionId,publicationDate,journal,title,reportedTrait,efoTraits,bgTraits,discoverySampleAncestry,replicationSampleAncestry,associationCount,summaryStatistics,ssApiFlag,agreedToCc0,genotypingTechnologies,pubmedId,initialSampleDescription,replicateSampleDescription,UKB_FIELD,FuzzySimilarity_migraine,FuzzySimilarity_european,SearchPhenotype,CONTROLS,CASES,SAMPLES
+28383,Backman JD,GCST90077745,10/18/2021,Nature,"Exome sequencing and analysis of 454,787 UK Biobank participants. ",migraine,migraine disorder,-,331754 european,,0,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90077001-GCST90078000/GCST90077745,no,yes,"Exome-wide sequencing,Genome-wide genotyping array",34662886,"14,131 European ancestry cases,317,623 European ancestry controls",,-,100,70,migraine,317623,14131,-
+50736,Meyers TJ,GCST90271641,6/9/2023,HGG Adv,Transcriptome-wide association study identifies novel candidate susceptibility genes for migraine.,migraine,migraine disorder,-,513266 european,,0,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90271001-GCST90272000/GCST90271641,no,yes,Genome-wide genotyping array,37415806,"26,052 European ancestry cases,487,214 European ancestry controls",,-,100,70,migraine,487214,26052,-
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
