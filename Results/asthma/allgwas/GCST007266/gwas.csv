@@ -1,0 +1,14 @@
+Description of the files by chromosome that includes summary statistics from all cohort association-analyses of asthma risk using GENESIS,Unnamed: 1,Unnamed: 2
+"Col
+number",Variables,Description
+1,SNP,The SNP ID
+2,chr,The numeric chromosome value
+3,n,The number of samples used to analyze the SNP
+4,MAF,The estimated minor allele frequency
+5,minor.allele,"Either ""A"" or ""B"" indicating which allele is the minor allele"
+6,Score,The value of the score function
+7,Var,The variance of the score function
+8,Score.Stat,The score chi-squared test statistic
+9,REF.0.,reference allele for the variant as imported from the reference panel file
+10,ALT.1.,alternate alleles for the variant as imported from the reference panel file
+11,Rsq,"Immputation accuracy (estimated value of the squared correlation between imputed genotypes and true, unobserved genotypes)"

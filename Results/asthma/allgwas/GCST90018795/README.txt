@@ -1,0 +1,1 @@
+Sakaue S, Kanai M, et al. A global atlas of genetic associations of 220 deep phenotypes. medRxiv (2020) https://doi.org/10.1101/2020.10.23.20213652 [In Press in Nature Genetics]
