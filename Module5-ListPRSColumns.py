@@ -637,7 +637,7 @@ if __name__ == "__main__":
         for key, value in transformeddic.items():
             file.write(f" {key} -> {value}\n")
             
-    with open(savingdirec+os.sep+'transform1.txt', 'w') as file:
+    with open('transform1.txt', 'w') as file:
         for key, value in transformeddic.items():
             if "NA" in key:
                 continue
