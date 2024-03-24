@@ -22,6 +22,8 @@ The Input-Module3-Migraine.csv contains the following information. The name is t
 Name,Download Link
 migraine,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038646/GCST90038646_buildGRCh37.tsv
 ```
+Please include the Hugging Chat password and email, as it is required for the execution.
+
 ### Module 4
 ```bash
 python Module4-ExtractGWAS.py --processedfile Input-Module3-Migraine.csv --indexer 1
