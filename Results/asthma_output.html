@@ -1,0 +1,1785 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005212</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Demenais F</td>
+      <td>GCST005212</td>
+      <td>12/22/2017</td>
+      <td>Nat Genet</td>
+      <td>Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>127669 european,5215 east asian,8204 african unspecified, african american or afro-caribbean,1398 hispanic or latin american</td>
+      <td>NaN</td>
+      <td>40</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005212</td>
+      <td>yes</td>
+      <td>-</td>
+      <td>Genome-wide genotyping array</td>
+      <td>29273806</td>
+      <td>19,954 European ancestry cases,107,715 European ancestry controls,2,149 African ancestry cases,6,055 African ancestry controls,1,239 Japanese ancestry cases,3,976 Japanese ancestry controls, 606 Latino cases, 792 Latino controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>harmonised/</td>
+      <td>2019-03-25 14:46</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005212/harmonised/</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>TAGC_meta-analyses_results_for_asthma_risk.zip</td>
+      <td>2018-01-29 21:55</td>
+      <td>116M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005212/TAGC_meta-analyses_results_for_asthma_risk.zip</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: temp/TAGC_meta-analyses_results_for_asthma_risk/TAGC_Multiancestry_and_European-Ancestry_Meta-analyses_Results.tsv!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chr</th>
+      <th>rsid</th>
+      <th>position</th>
+      <th>reference_allele</th>
+      <th>alternate_allele</th>
+      <th>multiancestry_beta_fix</th>
+      <th>multiancestry_se_fix</th>
+      <th>multiancestry_pval_fix</th>
+      <th>multiancestry_beta_rand</th>
+      <th>multiancestry_se_rand</th>
+      <th>multiancestry_pval_rand</th>
+      <th>multiancestry_hetqtest</th>
+      <th>multiancestry_df_hetqtest</th>
+      <th>multiancestry_pval_hetqtest</th>
+      <th>european_ancestry_beta_fix</th>
+      <th>european_ancestry_se_fix</th>
+      <th>european_ancestry_pval_fix</th>
+      <th>european_ancestry_beta_rand</th>
+      <th>european_ancestry_se_rand</th>
+      <th>european_ancestry_pval_rand</th>
+      <th>european_ancestry_hetqtest</th>
+      <th>european_ancestry_df_hetqtest</th>
+      <th>european_ancestry_pval_hetqtest</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>rs3094315</td>
+      <td>752566</td>
+      <td>G</td>
+      <td>A</td>
+      <td>-0.008309</td>
+      <td>0.020156</td>
+      <td>0.680173</td>
+      <td>-0.008309</td>
+      <td>0.020156</td>
+      <td>0.680173</td>
+      <td>36.575</td>
+      <td>51</td>
+      <td>0.936112</td>
+      <td>-0.015267</td>
+      <td>0.02377</td>
+      <td>0.520677</td>
+      <td>-0.015267</td>
+      <td>0.02377</td>
+      <td>0.520677</td>
+      <td>30.743</td>
+      <td>42</td>
+      <td>0.900529</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>rs4040617</td>
+      <td>779322</td>
+      <td>A</td>
+      <td>G</td>
+      <td>-0.002831</td>
+      <td>0.024648</td>
+      <td>0.908569</td>
+      <td>-0.002831</td>
+      <td>0.024648</td>
+      <td>0.908569</td>
+      <td>40.899</td>
+      <td>51</td>
+      <td>0.843239</td>
+      <td>0.011175</td>
+      <td>0.03032</td>
+      <td>0.712460</td>
+      <td>0.011175</td>
+      <td>0.03032</td>
+      <td>0.712460</td>
+      <td>33.586</td>
+      <td>42</td>
+      <td>0.819530</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chr</th>
+      <th>rsid</th>
+      <th>position</th>
+      <th>reference_allele</th>
+      <th>alternate_allele</th>
+      <th>multiancestry_beta_fix</th>
+      <th>multiancestry_se_fix</th>
+      <th>multiancestry_pval_fix</th>
+      <th>multiancestry_beta_rand</th>
+      <th>multiancestry_se_rand</th>
+      <th>multiancestry_pval_rand</th>
+      <th>multiancestry_hetqtest</th>
+      <th>multiancestry_df_hetqtest</th>
+      <th>multiancestry_pval_hetqtest</th>
+      <th>european_ancestry_beta_fix</th>
+      <th>european_ancestry_se_fix</th>
+      <th>european_ancestry_pval_fix</th>
+      <th>european_ancestry_beta_rand</th>
+      <th>european_ancestry_se_rand</th>
+      <th>european_ancestry_pval_rand</th>
+      <th>european_ancestry_hetqtest</th>
+      <th>european_ancestry_df_hetqtest</th>
+      <th>european_ancestry_pval_hetqtest</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>rs3094315</td>
+      <td>752566</td>
+      <td>G</td>
+      <td>A</td>
+      <td>-0.008309</td>
+      <td>0.020156</td>
+      <td>0.680173</td>
+      <td>-0.008309</td>
+      <td>0.020156</td>
+      <td>0.680173</td>
+      <td>36.575</td>
+      <td>51</td>
+      <td>0.936112</td>
+      <td>-0.015267</td>
+      <td>0.02377</td>
+      <td>0.520677</td>
+      <td>-0.015267</td>
+      <td>0.02377</td>
+      <td>0.520677</td>
+      <td>30.743</td>
+      <td>42</td>
+      <td>0.900529</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>rs4040617</td>
+      <td>779322</td>
+      <td>A</td>
+      <td>G</td>
+      <td>-0.002831</td>
+      <td>0.024648</td>
+      <td>0.908569</td>
+      <td>-0.002831</td>
+      <td>0.024648</td>
+      <td>0.908569</td>
+      <td>40.899</td>
+      <td>51</td>
+      <td>0.843239</td>
+      <td>0.011175</td>
+      <td>0.03032</td>
+      <td>0.712460</td>
+      <td>0.011175</td>
+      <td>0.03032</td>
+      <td>0.712460</td>
+      <td>33.586</td>
+      <td>42</td>
+      <td>0.819530</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chr']</p><p style='font-weight: bold; color: blue;'>SNP -> ['rsid']</p><p style='font-weight: bold; color: blue;'>BP -> ['position']</p><p style='font-weight: bold; color: blue;'>A1 -> ['reference_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['alternate_allele']</p><p style='font-weight: bold; color: blue;'>N -> []</p><p style='font-weight: bold; color: blue;'>P -> ['multiancestry_pval_fix', 'multiancestry_pval_rand', 'multiancestry_pval_hetqtest', 'european_ancestry_pval_fix', 'european_ancestry_pval_rand', 'european_ancestry_pval_hetqtest']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> []</p><p style='font-weight: bold; color: blue;'>SE -> []</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chr, rsid, position, reference_allele, alternate_allele, multiancestry_beta_fix, multiancestry_se_fix, multiancestry_pval_fix, multiancestry_beta_rand, multiancestry_se_rand, multiancestry_pval_rand, multiancestry_hetqtest, multiancestry_df_hetqtest, multiancestry_pval_hetqtest, european_ancestry_beta_fix, european_ancestry_se_fix, european_ancestry_pval_fix, european_ancestry_beta_rand, european_ancestry_se_rand, european_ancestry_pval_rand, european_ancestry_hetqtest, european_ancestry_df_hetqtest, european_ancestry_pval_hetqtest<h2 class='text-muted'>Identified columns</h2>chr, rsid, position, reference_allele, alternate_allele, multiancestry_pval_fix, multiancestry_pval_rand, multiancestry_pval_hetqtest, european_ancestry_pval_fix, european_ancestry_pval_rand, european_ancestry_pval_hetqtest<h2 class='text-muted'>Unidentified Columns headers</h2>european_ancestry_beta_fix, multiancestry_beta_fix, european_ancestry_beta_rand, european_ancestry_df_hetqtest, multiancestry_hetqtest, multiancestry_se_rand, multiancestry_df_hetqtest, european_ancestry_hetqtest, multiancestry_se_fix, european_ancestry_se_rand, multiancestry_beta_rand, european_ancestry_se_fix<h2 class='text-muted'>PMID</h2>29273806<h2 class='text-muted'>DOI</h2>10.1038/s41588-017-0014-7<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{Demenais_2017, title={Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks}, volume={50}, ISSN={1546-1718}, url={http://dx.doi.org/10.1038/s41588-017-0014-7}, DOI={10.1038/s41588-017-0014-7}, number={1}, journal={Nature Genetics}, publisher={Springer Science and Business Media LLC}, author={Demenais, Florence and Margaritte-Jeannin, Patricia and Barnes, Kathleen C. and Cookson, William O. C. and Altmüller, Janine and Ang, Wei and Barr, R. Graham and Beaty, Terri H. and Becker, Allan B. and Beilby, John and Bisgaard, Hans and Bjornsdottir, Unnur Steina and Bleecker, Eugene and Bønnelykke, Klaus and Boomsma, Dorret I. and Bouzigon, Emmanuelle and Brightling, Christopher E. and Brossard, Myriam and Brusselle, Guy G. and Burchard, Esteban and Burkart, Kristin M. and Bush, Andrew and Chan-Yeung, Moira and Chung, Kian Fan and Couto Alves, Alexessander and Curtin, John A. and Custovic, Adnan and Daley, Denise and de Jongste, Johan C. and Del-Rio-Navarro, Blanca E. and Donohue, Kathleen M. and Duijts, Liesbeth and Eng, Celeste and Eriksson, Johan G. and Farrall, Martin and Fedorova, Yuliya and Feenstra, Bjarke and Ferreira, Manuel A. and Freidin, Maxim B. and Gajdos, Zofia and Gauderman, Jim and Gehring, Ulrike and Geller, Frank and Genuneit, Jon and Gharib, Sina A. and Gilliland, Frank and Granell, Raquel and Graves, Penelope E. and Gudbjartsson, Daniel F. and Haahtela, Tari and Heckbert, Susan R. and Heederik, Dick and Heinrich, Joachim and Heliövaara, Markku and Henderson, John and Himes, Blanca E. and Hirose, Hiroshi and Hirschhorn, Joel N. and Hofman, Albert and Holt, Patrick and Hottenga, Jouke and Hudson, Thomas J. and Hui, Jennie and Imboden, Medea and Ivanov, Vladimir and Jaddoe, Vincent W. V. and James, Alan and Janson, Christer and Jarvelin, Marjo-Riitta and Jarvis, Deborah and Jones, Graham and Jonsdottir, Ingileif and Jousilahti, Pekka and Kabesch, Michael and Kähönen, Mika and Kantor, David B. and Karunas, Alexandra S. and Khusnutdinova, Elza and Koppelman, Gerard H. and Kozyrskyj, Anita L. and Kreiner, Eskil and Kubo, Michiaki and Kumar, Rajesh and Kumar, Ashish and Kuokkanen, Mikko and Lahousse, Lies and Laitinen, Tarja and Laprise, Catherine and Lathrop, Mark and Lau, Susanne and Lee, Young-Ae and Lehtimäki, Terho and Letort, Sébastien and Levin, Albert M. and Li, Guo and Liang, Liming and Loehr, Laura R. and London, Stephanie J. and Loth, Daan W. and Manichaikul, Ani and Marenholz, Ingo and Martinez, Fernando J. and Matheson, Melanie C. and Mathias, Rasika A. and Matsumoto, Kenji and Mbarek, Hamdi and McArdle, Wendy L. and Melbye, Mads and Melén, Erik and Meyers, Deborah and Michel, Sven and Mohamdi, Hamida and Musk, Arthur W. and Myers, Rachel A. and Nieuwenhuis, Maartje A. E. and Noguchi, Emiko and O’Connor, George T. and Ogorodova, Ludmila M. and Palmer, Cameron D. and Palotie, Aarno and Park, Julie E. and Pennell, Craig E. and Pershagen, Göran and Polonikov, Alexey and Postma, Dirkje S. and Probst-Hensch, Nicole and Puzyrev, Valery P. and Raby, Benjamin A. and Raitakari, Olli T. and Ramasamy, Adaikalavan and Rich, Stephen S. and Robertson, Colin F. and Romieu, Isabelle and Salam, Muhammad T. and Salomaa, Veikko and Schlünssen, Vivi and Scott, Robert and Selivanova, Polina A. and Sigsgaard, Torben and Simpson, Angela and Siroux, Valérie and Smith, Lewis J. and Solodilova, Maria and Standl, Marie and Stefansson, Kari and Strachan, David P. and Stricker, Bruno H. and Takahashi, Atsushi and Thompson, Philip J. and Thorleifsson, Gudmar and Thorsteinsdottir, Unnur and Tiesler, Carla M. T. and Torgerson, Dara G. and Tsunoda, Tatsuhiko and Uitterlinden, André G. and van der Valk, Ralf J. P. and Vaysse, Amaury and Vedantam, Sailaja and von Berg, Andrea and von Mutius, Erika and Vonk, Judith M. and Waage, Johannes and Wareham, Nick J. and Weiss, Scott T. and White, Wendy B. and Wickman, Magnus and Widén, Elisabeth and Willemsen, Gonneke and Williams, L. Keoki and Wouters, Inge M. and Yang, James J. and Zhao, Jing Hua and Moffatt, Miriam F. and Ober, Carole and Nicolae, Dan L.}, year={2017}, month=dec, pages={42–53} }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chang X</td>
+      <td>GCST90131436</td>
+      <td>9/8/2022</td>
+      <td>J Allergy Clin Immunol</td>
+      <td>Genetic architecture of asthma in African American Patients.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>739 african american or afro-caribbean</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>36089080</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GCST90131436_buildGRCh38.tsv.gz-meta.yaml</td>
+      <td>2024-01-04 00:25</td>
+      <td>754</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436/GCST90131436_buildGRCh38.tsv.gz-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>README.txt</td>
+      <td>2022-09-06 16:15</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>md5sum.txt</td>
+      <td>2022-09-06 16:15</td>
+      <td>109</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90131436_buildGRCh38.tsv.gz</td>
+      <td>2022-09-06 16:15</td>
+      <td>217M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131436/GCST90131436_buildGRCh38.tsv.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90131436_buildGRCh38.tsv.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>11171</td>
+      <td>CCTTG</td>
+      <td>C</td>
+      <td>C</td>
+      <td>650</td>
+      <td>1.48963</td>
+      <td>0.729852</td>
+      <td>0.585039</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>48824</td>
+      <td>T</td>
+      <td>C</td>
+      <td>C</td>
+      <td>687</td>
+      <td>1.33464</td>
+      <td>0.723987</td>
+      <td>0.690106</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>11171</td>
+      <td>CCTTG</td>
+      <td>C</td>
+      <td>C</td>
+      <td>650</td>
+      <td>1.48963</td>
+      <td>0.729852</td>
+      <td>0.585039</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>48824</td>
+      <td>T</td>
+      <td>C</td>
+      <td>C</td>
+      <td>687</td>
+      <td>1.33464</td>
+      <td>0.723987</td>
+      <td>0.690106</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> []</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location']</p><p style='font-weight: bold; color: blue;'>A1 -> ['reference_allele', 'effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['alternative_allele']</p><p style='font-weight: bold; color: blue;'>N -> ['n_samples']</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> []</p><p style='font-weight: bold; color: blue;'>SE -> ['or_se']</p><p style='font-weight: bold; color: blue;'>OR -> ['odds_ratio']</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chromosome, base_pair_location, reference_allele, alternative_allele, effect_allele, n_samples, odds_ratio, or_se, p_value<h2 class='text-muted'>Identified columns</h2>chromosome, base_pair_location, reference_allele, effect_allele, alternative_allele, n_samples, p_value, or_se, odds_ratio<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>36089080<h2 class='text-muted'>DOI</h2>10.1016/j.jaci.2022.09.001<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{Chang_2023, title={Genetic architecture of asthma in African American patients}, volume={151}, ISSN={0091-6749}, url={http://dx.doi.org/10.1016/j.jaci.2022.09.001}, DOI={10.1016/j.jaci.2022.09.001}, number={4}, journal={Journal of Allergy and Clinical Immunology}, publisher={Elsevier BV}, author={Chang, Xiao and March, Michael and Mentch, Frank and Qu, Huiqi and Liu, Yichuan and Glessner, Joseph and Sleiman, Patrick and Hakonarson, Hakon}, year={2023}, month=apr, pages={1132â€“1136} }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010043</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Han Y</td>
+      <td>GCST010043</td>
+      <td>4/15/2020</td>
+      <td>Nat Commun</td>
+      <td>Genome-wide analysis highlights contribution of immune system pathways to the genetic architecture of asthma.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>521528 european,1398 hispanic or latin american,8204 african american or afro-caribbean,5215 east asian</td>
+      <td>NaN</td>
+      <td>167</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010043</td>
+      <td>no</td>
+      <td>-</td>
+      <td>Genome-wide genotyping array</td>
+      <td>32296059</td>
+      <td>84,492 European ancestry cases,2,149 African American cases, 606 Hispanic cases,1,239 Japanese ancestry cases,437,036 European ancestry controls,6,055 African American controls, 792 Hispanic controls,3,976 Japanese ancestry controls</td>
+      <td>NR</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>md5sum.txt</td>
+      <td>2020-06-05 00:00</td>
+      <td>148</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010043/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>HanY_prePMID_asthma_README.txt</td>
+      <td>2020-06-05 00:00</td>
+      <td>1.4K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010043/HanY_prePMID_asthma_README.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>HanY_prePMID_asthma_Meta-analysis_UKBB_TAGC.txt.gz</td>
+      <td>2020-06-05 00:00</td>
+      <td>146M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010043/HanY_prePMID_asthma_Meta-analysis_UKBB_TAGC.txt.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: HanY_prePMID_asthma_Meta-analysis_UKBB_TAGC.txt.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>snp</th>
+      <th>chr</th>
+      <th>bp</th>
+      <th>ea</th>
+      <th>nea</th>
+      <th>z</th>
+      <th>p</th>
+      <th>direction_ukbb_tagc</th>
+      <th>p_het</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1_100004463_TA_T</td>
+      <td>1</td>
+      <td>100004463</td>
+      <td>T</td>
+      <td>TA</td>
+      <td>0.374</td>
+      <td>0.70810</td>
+      <td>-+</td>
+      <td>0.2873</td>
+      <td>536345</td>
+    </tr>
+    <tr>
+      <td>1_10001235_TTTCG_T</td>
+      <td>1</td>
+      <td>10001235</td>
+      <td>T</td>
+      <td>TTTCG</td>
+      <td>2.298</td>
+      <td>0.02159</td>
+      <td>++</td>
+      <td>0.3433</td>
+      <td>536345</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>snp</th>
+      <th>chr</th>
+      <th>bp</th>
+      <th>ea</th>
+      <th>nea</th>
+      <th>z</th>
+      <th>p</th>
+      <th>direction_ukbb_tagc</th>
+      <th>p_het</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1_100004463_TA_T</td>
+      <td>1</td>
+      <td>100004463</td>
+      <td>T</td>
+      <td>TA</td>
+      <td>0.374</td>
+      <td>0.70810</td>
+      <td>-+</td>
+      <td>0.2873</td>
+      <td>536345</td>
+    </tr>
+    <tr>
+      <td>1_10001235_TTTCG_T</td>
+      <td>1</td>
+      <td>10001235</td>
+      <td>T</td>
+      <td>TTTCG</td>
+      <td>2.298</td>
+      <td>0.02159</td>
+      <td>++</td>
+      <td>0.3433</td>
+      <td>536345</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chr']</p><p style='font-weight: bold; color: blue;'>SNP -> ['snp']</p><p style='font-weight: bold; color: blue;'>BP -> ['bp']</p><p style='font-weight: bold; color: blue;'>A1 -> ['ea']</p><p style='font-weight: bold; color: blue;'>A2 -> []</p><p style='font-weight: bold; color: blue;'>N -> ['n']</p><p style='font-weight: bold; color: blue;'>P -> ['p']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> []</p><p style='font-weight: bold; color: blue;'>SE -> []</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> ['z']</p><p style='font-weight: bold; color: blue;'>D -> ['direction_ukbb_tagc']</p><h2 class='text-muted'>GWAS columns</h2>snp, chr, bp, ea, nea, z, p, direction_ukbb_tagc, p_het, n<h2 class='text-muted'>Identified columns</h2>chr, snp, bp, ea, n, p, z, direction_ukbb_tagc<h2 class='text-muted'>Unidentified Columns headers</h2>nea, p_het<h2 class='text-muted'>PMID</h2>32296059<h2 class='text-muted'>DOI</h2>10.1038/s41467-020-15649-3<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{Han_2020, title={Genome-wide analysis highlights contribution of immune system pathways to the genetic architecture of asthma}, volume={11}, ISSN={2041-1723}, url={http://dx.doi.org/10.1038/s41467-020-15649-3}, DOI={10.1038/s41467-020-15649-3}, number={1}, journal={Nature Communications}, publisher={Springer Science and Business Media LLC}, author={Han, Yi and Jia, Qiong and Jahani, Pedram Shafiei and Hurrell, Benjamin P. and Pan, Calvin and Huang, Pin and Gukasyan, Janet and Woodward, Nicholas C. and Eskin, Eleazar and Gilliland, Frank D. and Akbari, Omid and Hartiala, Jaana A. and Allayee, Hooman}, year={2020}, month=apr }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sakaue S</td>
+      <td>GCST90018575</td>
+      <td>9/30/2021</td>
+      <td>Nat Genet</td>
+      <td>A cross-population atlas of genetic associations for 220 human phenotypes.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>175948 east asian</td>
+      <td>NaN</td>
+      <td>21</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>34594039</td>
+      <td>13,015 East Asian ancestry cases,162,933 East Asian ancestry controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GCST90018575_buildGRCh37.tsv.gz-meta.yaml</td>
+      <td>2024-01-04 00:32</td>
+      <td>939</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575/GCST90018575_buildGRCh37.tsv.gz-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>README.txt</td>
+      <td>2021-12-16 01:08</td>
+      <td>177</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>harmonised/</td>
+      <td>2024-02-02 15:17</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575/harmonised/</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>md5sum.txt</td>
+      <td>2021-12-16 01:08</td>
+      <td>109</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90018575_buildGRCh37.tsv.gz</td>
+      <td>2021-12-16 01:08</td>
+      <td>503M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018575/GCST90018575_buildGRCh37.tsv.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90018575_buildGRCh37.tsv.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>p_value</th>
+      <th>variant_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>751343</td>
+      <td>A</td>
+      <td>T</td>
+      <td>0.147663</td>
+      <td>-0.008015</td>
+      <td>0.020093</td>
+      <td>0.689979</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>751756</td>
+      <td>C</td>
+      <td>T</td>
+      <td>0.147198</td>
+      <td>-0.007929</td>
+      <td>0.020046</td>
+      <td>0.692458</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>p_value</th>
+      <th>variant_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>751343</td>
+      <td>A</td>
+      <td>T</td>
+      <td>0.147663</td>
+      <td>-0.008015</td>
+      <td>0.020093</td>
+      <td>0.689979</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>751756</td>
+      <td>C</td>
+      <td>T</td>
+      <td>0.147198</td>
+      <td>-0.007929</td>
+      <td>0.020046</td>
+      <td>0.692458</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> ['variant_id']</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location']</p><p style='font-weight: bold; color: blue;'>A1 -> ['effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['other_allele']</p><p style='font-weight: bold; color: blue;'>N -> []</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> ['effect_allele_frequency']</p><p style='font-weight: bold; color: blue;'>BETA -> ['beta']</p><p style='font-weight: bold; color: blue;'>SE -> ['standard_error']</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chromosome, base_pair_location, effect_allele, other_allele, effect_allele_frequency, beta, standard_error, p_value, variant_id<h2 class='text-muted'>Identified columns</h2>chromosome, variant_id, base_pair_location, effect_allele, other_allele, p_value, effect_allele_frequency, beta, standard_error<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>34594039<h2 class='text-muted'>DOI</h2>Could not find DOI!<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'></div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chang X</td>
+      <td>GCST90131434</td>
+      <td>9/8/2022</td>
+      <td>J Allergy Clin Immunol</td>
+      <td>Genetic architecture of asthma in African American Patients.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>4182 african american or afro-caribbean</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>36089080</td>
+      <td>2,638 African American cases,1,544 African American controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GCST90131434_buildGRCh38.tsv.gz-meta.yaml</td>
+      <td>2024-01-04 00:24</td>
+      <td>755</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434/GCST90131434_buildGRCh38.tsv.gz-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>README.txt</td>
+      <td>2022-09-06 16:26</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>md5sum.txt</td>
+      <td>2022-09-06 16:26</td>
+      <td>109</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90131434_buildGRCh38.tsv.gz</td>
+      <td>2022-09-06 16:26</td>
+      <td>244M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131434/GCST90131434_buildGRCh38.tsv.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90131434_buildGRCh38.tsv.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>763097</td>
+      <td>C</td>
+      <td>T</td>
+      <td>T</td>
+      <td>3713</td>
+      <td>0.924202</td>
+      <td>0.334709</td>
+      <td>0.813818</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>763107</td>
+      <td>A</td>
+      <td>G</td>
+      <td>G</td>
+      <td>3712</td>
+      <td>0.924171</td>
+      <td>0.334715</td>
+      <td>0.813745</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>763097</td>
+      <td>C</td>
+      <td>T</td>
+      <td>T</td>
+      <td>3713</td>
+      <td>0.924202</td>
+      <td>0.334709</td>
+      <td>0.813818</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>763107</td>
+      <td>A</td>
+      <td>G</td>
+      <td>G</td>
+      <td>3712</td>
+      <td>0.924171</td>
+      <td>0.334715</td>
+      <td>0.813745</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> []</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location']</p><p style='font-weight: bold; color: blue;'>A1 -> ['reference_allele', 'effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['alternative_allele']</p><p style='font-weight: bold; color: blue;'>N -> ['n_samples']</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> []</p><p style='font-weight: bold; color: blue;'>SE -> ['or_se']</p><p style='font-weight: bold; color: blue;'>OR -> ['odds_ratio']</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chromosome, base_pair_location, reference_allele, alternative_allele, effect_allele, n_samples, odds_ratio, or_se, p_value<h2 class='text-muted'>Identified columns</h2>chromosome, base_pair_location, reference_allele, effect_allele, alternative_allele, n_samples, p_value, or_se, odds_ratio<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>36089080<h2 class='text-muted'>DOI</h2>10.1016/j.jaci.2022.09.001<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{Chang_2023, title={Genetic architecture of asthma in African American patients}, volume={151}, ISSN={0091-6749}, url={http://dx.doi.org/10.1016/j.jaci.2022.09.001}, DOI={10.1016/j.jaci.2022.09.001}, number={4}, journal={Journal of Allergy and Clinical Immunology}, publisher={Elsevier BV}, author={Chang, Xiao and March, Michael and Mentch, Frank and Qu, Huiqi and Liu, Yichuan and Glessner, Joseph and Sleiman, Patrick and Hakonarson, Hakon}, year={2023}, month=apr, pages={1132â€“1136} }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sakaue S</td>
+      <td>GCST90018795</td>
+      <td>9/30/2021</td>
+      <td>Nat Genet</td>
+      <td>A cross-population atlas of genetic associations for 220 human phenotypes.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>449500 european,175948 east asian</td>
+      <td>NaN</td>
+      <td>60</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>34594039</td>
+      <td>38,369 European ancestry cases,411,131 European ancestry controls,13,015 East Asian ancestry cases,162,933 East Asian ancestry controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>README.txt</td>
+      <td>2021-12-16 00:55</td>
+      <td>177</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>harmonised/</td>
+      <td>2024-02-02 15:17</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795/harmonised/</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>md5sum.txt</td>
+      <td>2021-12-16 00:55</td>
+      <td>109</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>GCST90018795_buildGRCh37.tsv.gz-meta.yaml</td>
+      <td>2024-01-04 00:36</td>
+      <td>1.1K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795/GCST90018795_buildGRCh37.tsv.gz-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90018795_buildGRCh37.tsv.gz</td>
+      <td>2021-12-16 00:55</td>
+      <td>499M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90018001-GCST90019000/GCST90018795/GCST90018795_buildGRCh37.tsv.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90018795_buildGRCh37.tsv.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>p_value</th>
+      <th>variant_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>100000012</td>
+      <td>T</td>
+      <td>G</td>
+      <td>0.280293</td>
+      <td>0.0055</td>
+      <td>0.0077</td>
+      <td>0.47560</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>10000006</td>
+      <td>A</td>
+      <td>G</td>
+      <td>0.005480</td>
+      <td>-0.1081</td>
+      <td>0.0560</td>
+      <td>0.05366</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>p_value</th>
+      <th>variant_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>100000012</td>
+      <td>T</td>
+      <td>G</td>
+      <td>0.280293</td>
+      <td>0.0055</td>
+      <td>0.0077</td>
+      <td>0.47560</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>10000006</td>
+      <td>A</td>
+      <td>G</td>
+      <td>0.005480</td>
+      <td>-0.1081</td>
+      <td>0.0560</td>
+      <td>0.05366</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> ['variant_id']</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location']</p><p style='font-weight: bold; color: blue;'>A1 -> ['effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['other_allele']</p><p style='font-weight: bold; color: blue;'>N -> []</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> ['effect_allele_frequency']</p><p style='font-weight: bold; color: blue;'>BETA -> ['beta']</p><p style='font-weight: bold; color: blue;'>SE -> ['standard_error']</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chromosome, base_pair_location, effect_allele, other_allele, effect_allele_frequency, beta, standard_error, p_value, variant_id<h2 class='text-muted'>Identified columns</h2>chromosome, variant_id, base_pair_location, effect_allele, other_allele, p_value, effect_allele_frequency, beta, standard_error<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>34594039<h2 class='text-muted'>DOI</h2>Could not find DOI!<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'></div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>D??nerta?? HM</td>
+      <td>GCST90038616</td>
+      <td>4/8/2021</td>
+      <td>Nat Aging</td>
+      <td>Common genetic associations between age-related diseases.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>484598 nr</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>33959723</td>
+      <td>56,087 cases,428,511 controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GCST90038616_buildGRCh37.tsv-meta.yaml</td>
+      <td>2024-01-04 00:33</td>
+      <td>659</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616/GCST90038616_buildGRCh37.tsv-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>harmonised/</td>
+      <td>2024-02-02 15:16</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616/harmonised/</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>md5sum.txt</td>
+      <td>2021-11-14 00:36</td>
+      <td>62</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90038616_buildGRCh37.tsv</td>
+      <td>2021-11-14 00:36</td>
+      <td>1.2G</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038616/GCST90038616_buildGRCh37.tsv</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90038616_buildGRCh37.tsv.1!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant_id</th>
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>genpos</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>info</th>
+      <th>chisq_linreg</th>
+      <th>p_linreg</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>chisq_bolt_lmm_inf</th>
+      <th>p_bolt_lmm_inf</th>
+      <th>chisq_bolt_lmm</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rs533090414</td>
+      <td>1</td>
+      <td>18849</td>
+      <td>0.0</td>
+      <td>C</td>
+      <td>G</td>
+      <td>0.026465</td>
+      <td>0.536412</td>
+      <td>0.187032</td>
+      <td>0.67</td>
+      <td>-0.001422</td>
+      <td>0.002771</td>
+      <td>0.263246</td>
+      <td>0.61</td>
+      <td>0.231473</td>
+      <td>0.63</td>
+    </tr>
+    <tr>
+      <td>rs568927205</td>
+      <td>1</td>
+      <td>54712</td>
+      <td>0.0</td>
+      <td>T</td>
+      <td>TTTTC</td>
+      <td>0.415825</td>
+      <td>0.538572</td>
+      <td>2.248480</td>
+      <td>0.13</td>
+      <td>0.001147</td>
+      <td>0.000892</td>
+      <td>1.652620</td>
+      <td>0.20</td>
+      <td>1.740730</td>
+      <td>0.19</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant_id</th>
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>genpos</th>
+      <th>effect_allele</th>
+      <th>other_allele</th>
+      <th>effect_allele_frequency</th>
+      <th>info</th>
+      <th>chisq_linreg</th>
+      <th>p_linreg</th>
+      <th>beta</th>
+      <th>standard_error</th>
+      <th>chisq_bolt_lmm_inf</th>
+      <th>p_bolt_lmm_inf</th>
+      <th>chisq_bolt_lmm</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rs533090414</td>
+      <td>1</td>
+      <td>18849</td>
+      <td>0.0</td>
+      <td>C</td>
+      <td>G</td>
+      <td>0.026465</td>
+      <td>0.536412</td>
+      <td>0.187032</td>
+      <td>0.67</td>
+      <td>-0.001422</td>
+      <td>0.002771</td>
+      <td>0.263246</td>
+      <td>0.61</td>
+      <td>0.231473</td>
+      <td>0.63</td>
+    </tr>
+    <tr>
+      <td>rs568927205</td>
+      <td>1</td>
+      <td>54712</td>
+      <td>0.0</td>
+      <td>T</td>
+      <td>TTTTC</td>
+      <td>0.415825</td>
+      <td>0.538572</td>
+      <td>2.248480</td>
+      <td>0.13</td>
+      <td>0.001147</td>
+      <td>0.000892</td>
+      <td>1.652620</td>
+      <td>0.20</td>
+      <td>1.740730</td>
+      <td>0.19</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> ['variant_id']</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location', 'genpos']</p><p style='font-weight: bold; color: blue;'>A1 -> ['effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['other_allele']</p><p style='font-weight: bold; color: blue;'>N -> []</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> ['info']</p><p style='font-weight: bold; color: blue;'>MAF -> ['effect_allele_frequency']</p><p style='font-weight: bold; color: blue;'>BETA -> ['beta', 'p_bolt_lmm_inf']</p><p style='font-weight: bold; color: blue;'>SE -> ['standard_error']</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>variant_id, chromosome, base_pair_location, genpos, effect_allele, other_allele, effect_allele_frequency, info, chisq_linreg, p_linreg, beta, standard_error, chisq_bolt_lmm_inf, p_bolt_lmm_inf, chisq_bolt_lmm, p_value<h2 class='text-muted'>Identified columns</h2>chromosome, variant_id, base_pair_location, genpos, effect_allele, other_allele, p_value, info, effect_allele_frequency, beta, p_bolt_lmm_inf, standard_error<h2 class='text-muted'>Unidentified Columns headers</h2>chisq_bolt_lmm_inf, chisq_linreg, chisq_bolt_lmm, p_linreg<h2 class='text-muted'>PMID</h2>33959723<h2 class='text-muted'>DOI</h2>10.1038/s43587-021-00051-5<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{D_nerta__2021, title={Common genetic associations between age-related diseases}, volume={1}, ISSN={2662-8465}, url={http://dx.doi.org/10.1038/s43587-021-00051-5}, DOI={10.1038/s43587-021-00051-5}, number={4}, journal={Nature Aging}, publisher={Springer Science and Business Media LLC}, author={Dönertaş, Handan Melike and Fabian, Daniel K. and Fuentealba, Matías and Partridge, Linda and Thornton, Janet M.}, year={2021}, month=apr, pages={400–412} }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chang X</td>
+      <td>GCST90131435</td>
+      <td>9/8/2022</td>
+      <td>J Allergy Clin Immunol</td>
+      <td>Genetic architecture of asthma in African American Patients.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>6483 african american or afro-caribbean</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>Genome-wide genotyping array</td>
+      <td>36089080</td>
+      <td>3,876 African American cases,2,607 African American controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>GCST90131435_buildGRCh38.tsv.gz-meta.yaml</td>
+      <td>2024-01-04 00:12</td>
+      <td>755</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435/GCST90131435_buildGRCh38.tsv.gz-meta.yaml</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>README.txt</td>
+      <td>2022-09-06 16:32</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>md5sum.txt</td>
+      <td>2022-09-06 16:32</td>
+      <td>109</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>GCST90131435_buildGRCh38.tsv.gz</td>
+      <td>2022-09-06 16:32</td>
+      <td>249M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90131001-GCST90132000/GCST90131435/GCST90131435_buildGRCh38.tsv.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: GCST90131435_buildGRCh38.tsv.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>11171</td>
+      <td>CCTTG</td>
+      <td>C</td>
+      <td>C</td>
+      <td>5747</td>
+      <td>1.15283</td>
+      <td>0.258932</td>
+      <td>0.582830</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>24963</td>
+      <td>GT</td>
+      <td>G</td>
+      <td>G</td>
+      <td>6337</td>
+      <td>2.77454</td>
+      <td>0.514961</td>
+      <td>0.047516</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>chromosome</th>
+      <th>base_pair_location</th>
+      <th>reference_allele</th>
+      <th>alternative_allele</th>
+      <th>effect_allele</th>
+      <th>n_samples</th>
+      <th>odds_ratio</th>
+      <th>or_se</th>
+      <th>p_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>11171</td>
+      <td>CCTTG</td>
+      <td>C</td>
+      <td>C</td>
+      <td>5747</td>
+      <td>1.15283</td>
+      <td>0.258932</td>
+      <td>0.582830</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>24963</td>
+      <td>GT</td>
+      <td>G</td>
+      <td>G</td>
+      <td>6337</td>
+      <td>2.77454</td>
+      <td>0.514961</td>
+      <td>0.047516</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chromosome']</p><p style='font-weight: bold; color: blue;'>SNP -> []</p><p style='font-weight: bold; color: blue;'>BP -> ['base_pair_location']</p><p style='font-weight: bold; color: blue;'>A1 -> ['reference_allele', 'effect_allele']</p><p style='font-weight: bold; color: blue;'>A2 -> ['alternative_allele']</p><p style='font-weight: bold; color: blue;'>N -> ['n_samples']</p><p style='font-weight: bold; color: blue;'>P -> ['p_value']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> []</p><p style='font-weight: bold; color: blue;'>SE -> ['or_se']</p><p style='font-weight: bold; color: blue;'>OR -> ['odds_ratio']</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>chromosome, base_pair_location, reference_allele, alternative_allele, effect_allele, n_samples, odds_ratio, or_se, p_value<h2 class='text-muted'>Identified columns</h2>chromosome, base_pair_location, reference_allele, effect_allele, alternative_allele, n_samples, p_value, or_se, odds_ratio<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>36089080<h2 class='text-muted'>DOI</h2>10.1016/j.jaci.2022.09.001<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'> @article{Chang_2023, title={Genetic architecture of asthma in African American patients}, volume={151}, ISSN={0091-6749}, url={http://dx.doi.org/10.1016/j.jaci.2022.09.001}, DOI={10.1016/j.jaci.2022.09.001}, number={4}, journal={Journal of Allergy and Clinical Immunology}, publisher={Elsevier BV}, author={Chang, Xiao and March, Michael and Mentch, Frank and Qu, Huiqi and Liu, Yichuan and Glessner, Joseph and Sleiman, Patrick and Hakonarson, Hakon}, year={2023}, month=apr, pages={1132â€“1136} }
+</div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST008001-GCST009000/GCST008916</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zhu Z</td>
+      <td>GCST008916</td>
+      <td>10/17/2019</td>
+      <td>Eur Respir J</td>
+      <td>Shared Genetics of Asthma and Mental Health Disorders: A Large-Scale Genome-Wide Cross-Trait Analysis.</td>
+      <td>asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>394283 european</td>
+      <td>142486 European, NR</td>
+      <td>130</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST008001-GCST009000/GCST008916</td>
+      <td>no</td>
+      <td>-</td>
+      <td>Genome-wide genotyping array</td>
+      <td>31619474</td>
+      <td>46,802 European ancestry cases,347,481 European ancestry controls</td>
+      <td>23,948 European and unknown ancestry cases,118,538 European and unknown ancestry controls</td>
+      <td>-</td>
+      <td>100</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>md5sum.txt</td>
+      <td>2019-10-26 00:02</td>
+      <td>187</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST008001-GCST009000/GCST008916/md5sum.txt</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>ZhuZ_31619474_readme.txt</td>
+      <td>2019-10-26 00:02</td>
+      <td>1.3K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST008001-GCST009000/GCST008916/ZhuZ_31619474_readme.txt</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>ukb.allasthma.upload.final.assoc.gz</td>
+      <td>2019-10-26 00:02</td>
+      <td>154M</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST008001-GCST009000/GCST008916/ukb.allasthma.upload.final.assoc.gz</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Processed file</h2><p>Processing file: ukb.allasthma.upload.final.assoc.gz!</p><h2 class='text-muted'>GWAS file head</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>snp</th>
+      <th>chr</th>
+      <th>bp</th>
+      <th>a1</th>
+      <th>a2</th>
+      <th>beta</th>
+      <th>se</th>
+      <th>p</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10_100744250_C_T</td>
+      <td>10</td>
+      <td>100744250</td>
+      <td>C</td>
+      <td>T</td>
+      <td>0.180360</td>
+      <td>0.093600</td>
+      <td>0.049</td>
+    </tr>
+    <tr>
+      <td>10_101380290_G_A</td>
+      <td>10</td>
+      <td>101380290</td>
+      <td>G</td>
+      <td>A</td>
+      <td>0.005146</td>
+      <td>0.096186</td>
+      <td>0.970</td>
+    </tr>
+  </tbody>
+</table></div><div class='container mt-4 bg-light p-4 text-center'><h2 class='text-muted'>Original GWAS file headers</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>snp</th>
+      <th>chr</th>
+      <th>bp</th>
+      <th>a1</th>
+      <th>a2</th>
+      <th>beta</th>
+      <th>se</th>
+      <th>p</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10_100744250_C_T</td>
+      <td>10</td>
+      <td>100744250</td>
+      <td>C</td>
+      <td>T</td>
+      <td>0.180360</td>
+      <td>0.093600</td>
+      <td>0.049</td>
+    </tr>
+    <tr>
+      <td>10_101380290_G_A</td>
+      <td>10</td>
+      <td>101380290</td>
+      <td>G</td>
+      <td>A</td>
+      <td>0.005146</td>
+      <td>0.096186</td>
+      <td>0.970</td>
+    </tr>
+  </tbody>
+</table><p style='font-weight: bold; color: blue;'>CHR -> ['chr']</p><p style='font-weight: bold; color: blue;'>SNP -> ['snp']</p><p style='font-weight: bold; color: blue;'>BP -> ['bp']</p><p style='font-weight: bold; color: blue;'>A1 -> ['a1']</p><p style='font-weight: bold; color: blue;'>A2 -> ['a1', 'a2']</p><p style='font-weight: bold; color: blue;'>N -> []</p><p style='font-weight: bold; color: blue;'>P -> ['p']</p><p style='font-weight: bold; color: blue;'>INFO -> []</p><p style='font-weight: bold; color: blue;'>MAF -> []</p><p style='font-weight: bold; color: blue;'>BETA -> ['beta']</p><p style='font-weight: bold; color: blue;'>SE -> ['se']</p><p style='font-weight: bold; color: blue;'>OR -> []</p><p style='font-weight: bold; color: blue;'>Z -> []</p><p style='font-weight: bold; color: blue;'>D -> []</p><h2 class='text-muted'>GWAS columns</h2>snp, chr, bp, a1, a2, beta, se, p<h2 class='text-muted'>Identified columns</h2>chr, snp, bp, a1, a1, a2, p, beta, se<h2 class='text-muted'>Unidentified Columns headers</h2><h2 class='text-muted'>PMID</h2>31619474<h2 class='text-muted'>DOI</h2>Could not find DOI!<div class='bibtex-container'><h2 class='text-muted'>BibTeX</h2><div style='font-family: monospace; white-space: pre-wrap;'></div></div><br><br><br><br><br><br></div><div class='container mt-4 bg-light p-4 text-center'><h1 class='text-primary'>Phenotype: adult asthma</h1><p class='text-muted'><strong>URL:</strong> http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266</p><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>firstAuthor</th>
+      <th>accessionId</th>
+      <th>publicationDate</th>
+      <th>journal</th>
+      <th>title</th>
+      <th>reportedTrait</th>
+      <th>efoTraits</th>
+      <th>bgTraits</th>
+      <th>discoverySampleAncestry</th>
+      <th>replicationSampleAncestry</th>
+      <th>associationCount</th>
+      <th>summaryStatistics</th>
+      <th>ssApiFlag</th>
+      <th>agreedToCc0</th>
+      <th>genotypingTechnologies</th>
+      <th>pubmedId</th>
+      <th>initialSampleDescription</th>
+      <th>replicateSampleDescription</th>
+      <th>UKB_FIELD</th>
+      <th>FuzzySimilarity_asthma</th>
+      <th>SearchPhenotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Daya M</td>
+      <td>GCST007266</td>
+      <td>2/20/2019</td>
+      <td>Nat Commun</td>
+      <td>Association study in African-admixed populations across the Americas recapitulates asthma risk loci in non-African populations.</td>
+      <td>adult asthma</td>
+      <td>asthma</td>
+      <td>-</td>
+      <td>9518 african american or afro-caribbean,5136 hispanic or latin american</td>
+      <td>NaN</td>
+      <td>11</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266</td>
+      <td>no</td>
+      <td>-</td>
+      <td>Genome-wide genotyping array</td>
+      <td>30787307</td>
+      <td>4,235 African American Afro-Caribbean cases,5,283 African American Afro-Caribbean controls, 2774 Hispanic cases,2,362 Hispanic controls</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>67</td>
+      <td>asthma</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>Information file</h2><table border="1" class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+      <th>Description</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>AllCohorts_associationanalysis_summaryStatistics/</td>
+      <td>2019-04-13 23:16</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/AllCohorts_associationanalysis_summaryStatistics/</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>META_analysis_summaryStatistics/</td>
+      <td>2019-04-13 23:17</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/META_analysis_summaryStatistics/</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>SAPPHIRE_associationanalysis_summaryStatistics/</td>
+      <td>2019-04-13 23:17</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/SAPPHIRE_associationanalysis_summaryStatistics/</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>README.txt</td>
+      <td>2019-04-13 23:12</td>
+      <td>1.6K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/README.txt</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>META_analysis_summaryStatistics_datadictionary.xlsx</td>
+      <td>2019-04-13 23:12</td>
+      <td>10K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/META_analysis_summaryStatistics_datadictionary.xlsx</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>SAPPHIRE_associationanalysis_summaryStatistics_datadictionary.xlsx</td>
+      <td>2019-04-13 23:12</td>
+      <td>21K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/SAPPHIRE_associationanalysis_summaryStatistics_datadictionary.xlsx</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>AllCohorts_associationanalysis_summaryStatistics_datadictionary.xlsx</td>
+      <td>2019-04-13 23:12</td>
+      <td>25K</td>
+      <td>NaN</td>
+      <td>http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007266/AllCohorts_associationanalysis_summaryStatistics_datadictionary.xlsx</td>
+    </tr>
+  </tbody>
+</table><h2 class='text-muted'>GWAS file</h2><p>We were unable to process the GWAS file!</p>
