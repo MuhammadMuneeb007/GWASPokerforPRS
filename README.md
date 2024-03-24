@@ -8,27 +8,27 @@ GWAS (genome-wide association study) summary statistic files are used to calcula
 ```bash
 python Module1-SearchPhenotypeandPopulation.py --phenotype asthma --population European
 python Module1-SearchPhenotypeandPopulation.py --phenotype migraine
+```
 
 ### Module 2
 ```bash
 Once you manually process the output file, do not change the file name and keep it the same for smooth working of the code.
 python Module2-Search_Poke_Normalize_Scan.py --processedfile migraine.csv
-
+```
 ### Module 3
 ```bash
 python Module3-DownloadGWAS.py --processedfile Input-Module3-Migraine.csv --indexer 1
-
 The Input-Module3-Migraine.csv contains the following information. The name is the directory in which the file should be downloaded and the further processed files will be stored in the same directory.
 Name,Download Link
 migraine,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90038001-GCST90039000/GCST90038646/GCST90038646_buildGRCh37.tsv
-
+```
 ### Module 4
 ```bash
 python Module4-ExtractGWAS.py --processedfile Input-Module3-Migraine.csv --indexer 1
-
+```
 ### Module 5
 ```bash
 If you want to check the columns in your own GWAS file. The code accepts .csv format.
 python Module5-ListPRSColumns.py --gwasfile gwas.csv.modified
-
+```
 
