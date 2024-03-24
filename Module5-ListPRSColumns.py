@@ -646,7 +646,7 @@ if __name__ == "__main__":
 
     from hugchat import hugchat
     from hugchat.login import Login
-    sign = Login("muneebsiddique007@gmail.com", "@meME007")
+    sign = Login("YOUR HUGGING CHAT EMAIL", "YOUR HUGGING CHAT PASSWORD")
     cookies = sign.login()
     cookie_path_dir = "./cookies_snapshot"
     sign.saveCookiesToDir(cookie_path_dir)
