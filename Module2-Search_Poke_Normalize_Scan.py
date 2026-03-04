@@ -224,9 +224,6 @@ print(f"Or List: {count_unique_values(or_list)} unique values")
 print(f"Zscore: {count_unique_values(zscore)} unique values")
 print(f"Direction: {count_unique_values(direction)} unique values")
 
-exit(0)
-
-
 def create_directory(directory):
     """Function to create a directory if it doesn't exist."""
     if not os.path.exists(directory):  # Checking if the directory doesn't exist
