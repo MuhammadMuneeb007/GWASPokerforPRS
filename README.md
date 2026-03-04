@@ -13,6 +13,8 @@ conda create --name genetics --file environment.txt
 
 ### Module 1
 ```bash
+wget https://www.ebi.ac.uk/gwas/api/search/downloads/studies/v1.0.3.1
+mv v1.0.3.1 summary_statistics_table_export.tsv
 python Module1-SearchPhenotypeandPopulation.py --phenotype asthma --population European
 python Module1-SearchPhenotypeandPopulation.py --phenotype migraine
 ```
